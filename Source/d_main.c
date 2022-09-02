@@ -404,6 +404,7 @@ boolean D_GrabMouseCallback(void)
     return (gamestate == GS_LEVEL) && !demoplayback && !advancedemo;
 }
 
+// MT: Modified 1/9/22 to run in VST host
 void D_DoomLoop_Start(void) {
     if (bfgedition &&
         (demorecording || (gameaction == ga_playdemo) || netgame))
@@ -438,6 +439,7 @@ void D_DoomLoop_Start(void) {
     }
 }
 
+// MT: Modified 1/9/22 to run in VST host
 void D_DoomLoop_SingleFrame(void) {
     // frame syncronous IO operations
     I_StartFrame();
@@ -1846,7 +1848,8 @@ void D_DoomMain (void)
 			D_StartTitle ();                // start up intro loop
     }
 
-    //D_DoomLoop ();  // never returns
+
+    // MT: Modified 1/9/22 to run in VST host
     // Call D_DoomLoop_Start() and then D_DoomLoop_SingleFrame() instead for each frame update
 }
 
