@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BM9jVN" name="DoomVst" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              compilerFlagSchemes="">
+  <MAINGROUP id="Ibweo2" name="DoomVst">
+    <GROUP id="{9AE04C06-0ED7-DDC4-0091-80C58C590FD1}" name="Source">
+      <FILE id="SSG0bd" name="doomgeneric_vst.h" compile="0" resource="0"
+            file="Source/doomgeneric_vst.h"/>
+      <FILE id="zZegB1" name="doomgeneric_vst.c" compile="1" resource="0"
+            file="Source/doomgeneric_vst.c"/>
+      <GROUP id="{AE970C4C-DC1C-F996-79F9-32944E3FD9DD}" name="doomgeneric">
+        <FILE id="KTPgKL" name="v_patch.h" compile="0" resource="0" file="Source/v_patch.h"/>
+        <FILE id="p8V4ah" name="v_video.c" compile="1" resource="0" file="Source/v_video.c"/>
+        <FILE id="XdVo7W" name="v_video.h" compile="0" resource="0" file="Source/v_video.h"/>
+        <FILE id="ILuAs6" name="w_checksum.c" compile="1" resource="0" file="Source/w_checksum.c"/>
+        <FILE id="rA4S2B" name="w_checksum.h" compile="0" resource="0" file="Source/w_checksum.h"/>
+        <FILE id="BXGBfU" name="w_file.c" compile="1" resource="0" file="Source/w_file.c"/>
+        <FILE id="xgucZi" name="w_file.h" compile="0" resource="0" file="Source/w_file.h"/>
+        <FILE id="EZqUWO" name="w_file_stdc.c" compile="1" resource="0" file="Source/w_file_stdc.c"/>
+        <FILE id="RydhhR" name="w_main.c" compile="1" resource="0" file="Source/w_main.c"/>
+        <FILE id="cl80oE" name="w_main.h" compile="0" resource="0" file="Source/w_main.h"/>
+        <FILE id="EMx2xB" name="w_merge.h" compile="0" resource="0" file="Source/w_merge.h"/>
+        <FILE id="PemXoR" name="w_wad.c" compile="1" resource="0" file="Source/w_wad.c"/>
+        <FILE id="OMQTO7" name="w_wad.h" compile="0" resource="0" file="Source/w_wad.h"/>
+        <FILE id="dT7v36" name="wi_stuff.c" compile="1" resource="0" file="Source/wi_stuff.c"/>
+        <FILE id="v17x8I" name="wi_stuff.h" compile="0" resource="0" file="Source/wi_stuff.h"/>
+        <FILE id="jkXVwS" name="z_zone.c" compile="1" resource="0" file="Source/z_zone.c"/>
+        <FILE id="pqz2t8" name="z_zone.h" compile="0" resource="0" file="Source/z_zone.h"/>
+        <FILE id="z3BlEt" name="am_map.c" compile="1" resource="0" file="Source/am_map.c"/>
+        <FILE id="q7yhKY" name="am_map.h" compile="0" resource="0" file="Source/am_map.h"/>
+        <FILE id="HKQq2A" name="config.h" compile="0" resource="0" file="Source/config.h"/>
+        <FILE id="Z6stBm" name="d_englsh.h" compile="0" resource="0" file="Source/d_englsh.h"/>
+        <FILE id="GTeuLe" name="d_event.c" compile="1" resource="0" file="Source/d_event.c"/>
+        <FILE id="DUMT0V" name="d_event.h" compile="0" resource="0" file="Source/d_event.h"/>
+        <FILE id="LFfCOd" name="d_items.c" compile="1" resource="0" file="Source/d_items.c"/>
+        <FILE id="L7bxuH" name="d_items.h" compile="0" resource="0" file="Source/d_items.h"/>
+        <FILE id="M5hJhY" name="d_iwad.c" compile="1" resource="0" file="Source/d_iwad.c"/>
+        <FILE id="oKAWex" name="d_iwad.h" compile="0" resource="0" file="Source/d_iwad.h"/>
+        <FILE id="ffftY2" name="d_loop.c" compile="1" resource="0" file="Source/d_loop.c"/>
+        <FILE id="iF029O" name="d_loop.h" compile="0" resource="0" file="Source/d_loop.h"/>
+        <FILE id="OcweST" name="d_main.c" compile="1" resource="0" file="Source/d_main.c"/>
+        <FILE id="Q0PzZI" name="d_main.h" compile="0" resource="0" file="Source/d_main.h"/>
+        <FILE id="Xnqez4" name="d_mode.c" compile="1" resource="0" file="Source/d_mode.c"/>
+        <FILE id="hPm7of" name="d_mode.h" compile="0" resource="0" file="Source/d_mode.h"/>
+        <FILE id="BYqxXC" name="d_net.c" compile="1" resource="0" file="Source/d_net.c"/>
+        <FILE id="PeUGw0" name="d_player.h" compile="0" resource="0" file="Source/d_player.h"/>
+        <FILE id="wmZgEP" name="d_textur.h" compile="0" resource="0" file="Source/d_textur.h"/>
+        <FILE id="PD2Twl" name="d_think.h" compile="0" resource="0" file="Source/d_think.h"/>
+        <FILE id="yCDMGL" name="d_ticcmd.h" compile="0" resource="0" file="Source/d_ticcmd.h"/>
+        <FILE id="yd4hVB" name="deh_main.h" compile="0" resource="0" file="Source/deh_main.h"/>
+        <FILE id="AOylIC" name="deh_misc.h" compile="0" resource="0" file="Source/deh_misc.h"/>
+        <FILE id="krwxOY" name="deh_str.h" compile="0" resource="0" file="Source/deh_str.h"/>
+        <FILE id="XI14Ak" name="doom.h" compile="0" resource="0" file="Source/doom.h"/>
+        <FILE id="mFFzyw" name="doomdata.h" compile="0" resource="0" file="Source/doomdata.h"/>
+        <FILE id="r0NpZE" name="doomdef.c" compile="1" resource="0" file="Source/doomdef.c"/>
+        <FILE id="RzTWeh" name="doomdef.h" compile="0" resource="0" file="Source/doomdef.h"/>
+        <FILE id="d05mll" name="doomfeatures.h" compile="0" resource="0" file="Source/doomfeatures.h"/>
+        <FILE id="kcxL8X" name="doomgeneric.c" compile="1" resource="0" file="Source/doomgeneric.c"/>
+        <FILE id="GKmVwR" name="doomgeneric.h" compile="0" resource="0" file="Source/doomgeneric.h"/>
+        <FILE id="EAqCYZ" name="doomkeys.h" compile="0" resource="0" file="Source/doomkeys.h"/>
+        <FILE id="RsljnU" name="doomstat.c" compile="1" resource="0" file="Source/doomstat.c"/>
+        <FILE id="X8G4Wh" name="doomstat.h" compile="0" resource="0" file="Source/doomstat.h"/>
+        <FILE id="wtZCmo" name="doomtype.h" compile="0" resource="0" file="Source/doomtype.h"/>
+        <FILE id="LVaIWq" name="dstrings.c" compile="1" resource="0" file="Source/dstrings.c"/>
+        <FILE id="gZV2uL" name="dstrings.h" compile="0" resource="0" file="Source/dstrings.h"/>
+        <FILE id="ExsVki" name="dummy.c" compile="1" resource="0" file="Source/dummy.c"/>
+        <FILE id="LGA9nX" name="f_finale.c" compile="1" resource="0" file="Source/f_finale.c"/>
+        <FILE id="Dkd4Lp" name="f_finale.h" compile="0" resource="0" file="Source/f_finale.h"/>
+        <FILE id="F4wMy6" name="f_wipe.c" compile="1" resource="0" file="Source/f_wipe.c"/>
+        <FILE id="S9OnnP" name="f_wipe.h" compile="0" resource="0" file="Source/f_wipe.h"/>
+        <FILE id="HwHuIA" name="g_game.c" compile="1" resource="0" file="Source/g_game.c"/>
+        <FILE id="HLqXet" name="g_game.h" compile="0" resource="0" file="Source/g_game.h"/>
+        <FILE id="HBLrDo" name="gusconf.c" compile="1" resource="0" file="Source/gusconf.c"/>
+        <FILE id="nX8tRZ" name="gusconf.h" compile="0" resource="0" file="Source/gusconf.h"/>
+        <FILE id="q6Y1Nw" name="hu_lib.c" compile="1" resource="0" file="Source/hu_lib.c"/>
+        <FILE id="sATr4c" name="hu_lib.h" compile="0" resource="0" file="Source/hu_lib.h"/>
+        <FILE id="kiHVpZ" name="hu_stuff.c" compile="1" resource="0" file="Source/hu_stuff.c"/>
+        <FILE id="A4prV5" name="hu_stuff.h" compile="0" resource="0" file="Source/hu_stuff.h"/>
+        <FILE id="VDzOw4" name="i_cdmus.c" compile="1" resource="0" file="Source/i_cdmus.c"/>
+        <FILE id="prKu60" name="i_cdmus.h" compile="0" resource="0" file="Source/i_cdmus.h"/>
+        <FILE id="qvt5s6" name="i_endoom.c" compile="1" resource="0" file="Source/i_endoom.c"/>
+        <FILE id="VcT1uH" name="i_endoom.h" compile="0" resource="0" file="Source/i_endoom.h"/>
+        <FILE id="PoaIwu" name="i_input.c" compile="1" resource="0" file="Source/i_input.c"/>
+        <FILE id="r5zGtE" name="i_joystick.c" compile="1" resource="0" file="Source/i_joystick.c"/>
+        <FILE id="MY4x6A" name="i_joystick.h" compile="0" resource="0" file="Source/i_joystick.h"/>
+        <FILE id="tnBadb" name="i_scale.c" compile="1" resource="0" file="Source/i_scale.c"/>
+        <FILE id="wEwlA1" name="i_scale.h" compile="0" resource="0" file="Source/i_scale.h"/>
+        <FILE id="WXQ5fM" name="i_sound.c" compile="1" resource="0" file="Source/i_sound.c"/>
+        <FILE id="hNSWU8" name="i_sound.h" compile="0" resource="0" file="Source/i_sound.h"/>
+        <FILE id="ukqNUt" name="i_swap.h" compile="0" resource="0" file="Source/i_swap.h"/>
+        <FILE id="Y5bVOF" name="i_system.c" compile="1" resource="0" file="Source/i_system.c"/>
+        <FILE id="Abh0vU" name="i_system.h" compile="0" resource="0" file="Source/i_system.h"/>
+        <FILE id="NoRcdM" name="i_timer.c" compile="1" resource="0" file="Source/i_timer.c"/>
+        <FILE id="cVuts7" name="i_timer.h" compile="0" resource="0" file="Source/i_timer.h"/>
+        <FILE id="oXio9B" name="i_video.c" compile="1" resource="0" file="Source/i_video.c"/>
+        <FILE id="C55qLb" name="i_video.h" compile="0" resource="0" file="Source/i_video.h"/>
+        <FILE id="nAkEvd" name="icon.c" compile="1" resource="0" file="Source/icon.c"/>
+        <FILE id="ml9fVh" name="info.c" compile="1" resource="0" file="Source/info.c"/>
+        <FILE id="T4nxpA" name="info.h" compile="0" resource="0" file="Source/info.h"/>
+        <FILE id="h9Ik3S" name="m_argv.c" compile="1" resource="0" file="Source/m_argv.c"/>
+        <FILE id="YFi1qB" name="m_argv.h" compile="0" resource="0" file="Source/m_argv.h"/>
+        <FILE id="PyYkxJ" name="m_bbox.c" compile="1" resource="0" file="Source/m_bbox.c"/>
+        <FILE id="gfOgwu" name="m_bbox.h" compile="0" resource="0" file="Source/m_bbox.h"/>
+        <FILE id="p7dT9e" name="m_cheat.c" compile="1" resource="0" file="Source/m_cheat.c"/>
+        <FILE id="OXFYzv" name="m_cheat.h" compile="0" resource="0" file="Source/m_cheat.h"/>
+        <FILE id="Q2Wii5" name="m_config.c" compile="1" resource="0" file="Source/m_config.c"/>
+        <FILE id="nRRRyD" name="m_config.h" compile="0" resource="0" file="Source/m_config.h"/>
+        <FILE id="c8JypE" name="m_controls.c" compile="1" resource="0" file="Source/m_controls.c"/>
+        <FILE id="JrBKxx" name="m_controls.h" compile="0" resource="0" file="Source/m_controls.h"/>
+        <FILE id="dOXIrO" name="m_fixed.c" compile="1" resource="0" file="Source/m_fixed.c"/>
+        <FILE id="ws2PhM" name="m_fixed.h" compile="0" resource="0" file="Source/m_fixed.h"/>
+        <FILE id="GxsmpO" name="m_menu.c" compile="1" resource="0" file="Source/m_menu.c"/>
+        <FILE id="ailJvU" name="m_menu.h" compile="0" resource="0" file="Source/m_menu.h"/>
+        <FILE id="ahTx0F" name="m_misc.c" compile="1" resource="0" file="Source/m_misc.c"/>
+        <FILE id="sTcPBL" name="m_misc.h" compile="0" resource="0" file="Source/m_misc.h"/>
+        <FILE id="nu43jx" name="m_random.c" compile="1" resource="0" file="Source/m_random.c"/>
+        <FILE id="xQFUah" name="m_random.h" compile="0" resource="0" file="Source/m_random.h"/>
+        <FILE id="m5Rp45" name="memio.c" compile="1" resource="0" file="Source/memio.c"/>
+        <FILE id="E72JK0" name="memio.h" compile="0" resource="0" file="Source/memio.h"/>
+        <FILE id="B9bU2l" name="net_client.h" compile="0" resource="0" file="Source/net_client.h"/>
+        <FILE id="Gcvyps" name="net_dedicated.h" compile="0" resource="0" file="Source/net_dedicated.h"/>
+        <FILE id="Vrekzz" name="net_defs.h" compile="0" resource="0" file="Source/net_defs.h"/>
+        <FILE id="UH3DHY" name="net_gui.h" compile="0" resource="0" file="Source/net_gui.h"/>
+        <FILE id="GIbZ6s" name="net_io.h" compile="0" resource="0" file="Source/net_io.h"/>
+        <FILE id="VG3YKj" name="net_loop.h" compile="0" resource="0" file="Source/net_loop.h"/>
+        <FILE id="XDcrJd" name="net_packet.h" compile="0" resource="0" file="Source/net_packet.h"/>
+        <FILE id="J9wJXY" name="net_query.h" compile="0" resource="0" file="Source/net_query.h"/>
+        <FILE id="lzvllc" name="net_sdl.h" compile="0" resource="0" file="Source/net_sdl.h"/>
+        <FILE id="Lltx5p" name="net_server.h" compile="0" resource="0" file="Source/net_server.h"/>
+        <FILE id="acnqM0" name="p_ceilng.c" compile="1" resource="0" file="Source/p_ceilng.c"/>
+        <FILE id="DJOkEr" name="p_doors.c" compile="1" resource="0" file="Source/p_doors.c"/>
+        <FILE id="WseWBr" name="p_enemy.c" compile="1" resource="0" file="Source/p_enemy.c"/>
+        <FILE id="Mdx1E9" name="p_floor.c" compile="1" resource="0" file="Source/p_floor.c"/>
+        <FILE id="LvbihK" name="p_inter.c" compile="1" resource="0" file="Source/p_inter.c"/>
+        <FILE id="ryINSu" name="p_inter.h" compile="0" resource="0" file="Source/p_inter.h"/>
+        <FILE id="DcCHXj" name="p_lights.c" compile="1" resource="0" file="Source/p_lights.c"/>
+        <FILE id="E8q8G1" name="p_local.h" compile="0" resource="0" file="Source/p_local.h"/>
+        <FILE id="DoNSRT" name="p_map.c" compile="1" resource="0" file="Source/p_map.c"/>
+        <FILE id="VqKoiD" name="p_maputl.c" compile="1" resource="0" file="Source/p_maputl.c"/>
+        <FILE id="wvaMeh" name="p_mobj.c" compile="1" resource="0" file="Source/p_mobj.c"/>
+        <FILE id="cfmINB" name="p_mobj.h" compile="0" resource="0" file="Source/p_mobj.h"/>
+        <FILE id="ESTms8" name="p_plats.c" compile="1" resource="0" file="Source/p_plats.c"/>
+        <FILE id="liJMi2" name="p_pspr.c" compile="1" resource="0" file="Source/p_pspr.c"/>
+        <FILE id="IN73Jv" name="p_pspr.h" compile="0" resource="0" file="Source/p_pspr.h"/>
+        <FILE id="N2RS7o" name="p_saveg.c" compile="1" resource="0" file="Source/p_saveg.c"/>
+        <FILE id="rjKDIu" name="p_saveg.h" compile="0" resource="0" file="Source/p_saveg.h"/>
+        <FILE id="CLJanf" name="p_setup.c" compile="1" resource="0" file="Source/p_setup.c"/>
+        <FILE id="WJOKPQ" name="p_setup.h" compile="0" resource="0" file="Source/p_setup.h"/>
+        <FILE id="L0sYtm" name="p_sight.c" compile="1" resource="0" file="Source/p_sight.c"/>
+        <FILE id="dO4ife" name="p_spec.c" compile="1" resource="0" file="Source/p_spec.c"/>
+        <FILE id="aTOezK" name="p_spec.h" compile="0" resource="0" file="Source/p_spec.h"/>
+        <FILE id="mCcQLx" name="p_switch.c" compile="1" resource="0" file="Source/p_switch.c"/>
+        <FILE id="RlV1cL" name="p_telept.c" compile="1" resource="0" file="Source/p_telept.c"/>
+        <FILE id="z6qy1V" name="p_tick.c" compile="1" resource="0" file="Source/p_tick.c"/>
+        <FILE id="NHfTNY" name="p_tick.h" compile="0" resource="0" file="Source/p_tick.h"/>
+        <FILE id="abuwau" name="p_user.c" compile="1" resource="0" file="Source/p_user.c"/>
+        <FILE id="i1VZJT" name="r_bsp.c" compile="1" resource="0" file="Source/r_bsp.c"/>
+        <FILE id="glcJ5a" name="r_bsp.h" compile="0" resource="0" file="Source/r_bsp.h"/>
+        <FILE id="pCAYef" name="r_data.c" compile="1" resource="0" file="Source/r_data.c"/>
+        <FILE id="xB0K1y" name="r_data.h" compile="0" resource="0" file="Source/r_data.h"/>
+        <FILE id="T2foDx" name="r_defs.h" compile="0" resource="0" file="Source/r_defs.h"/>
+        <FILE id="hgI5xe" name="r_draw.c" compile="1" resource="0" file="Source/r_draw.c"/>
+        <FILE id="x2vwG1" name="r_draw.h" compile="0" resource="0" file="Source/r_draw.h"/>
+        <FILE id="JJNdAQ" name="r_local.h" compile="0" resource="0" file="Source/r_local.h"/>
+        <FILE id="PoBmOn" name="r_main.c" compile="1" resource="0" file="Source/r_main.c"/>
+        <FILE id="yXFiNS" name="r_main.h" compile="0" resource="0" file="Source/r_main.h"/>
+        <FILE id="qdsNA9" name="r_plane.c" compile="1" resource="0" file="Source/r_plane.c"/>
+        <FILE id="LUQvv7" name="r_plane.h" compile="0" resource="0" file="Source/r_plane.h"/>
+        <FILE id="SERxfq" name="r_segs.c" compile="1" resource="0" file="Source/r_segs.c"/>
+        <FILE id="vzauKd" name="r_segs.h" compile="0" resource="0" file="Source/r_segs.h"/>
+        <FILE id="XGW099" name="r_sky.c" compile="1" resource="0" file="Source/r_sky.c"/>
+        <FILE id="KIRU0r" name="r_sky.h" compile="0" resource="0" file="Source/r_sky.h"/>
+        <FILE id="urpO6T" name="r_state.h" compile="0" resource="0" file="Source/r_state.h"/>
+        <FILE id="QkdZxv" name="r_things.c" compile="1" resource="0" file="Source/r_things.c"/>
+        <FILE id="fWeEqD" name="r_things.h" compile="0" resource="0" file="Source/r_things.h"/>
+        <FILE id="c94jQd" name="s_sound.c" compile="1" resource="0" file="Source/s_sound.c"/>
+        <FILE id="hfUyQg" name="s_sound.h" compile="0" resource="0" file="Source/s_sound.h"/>
+        <FILE id="gagdko" name="sha1.c" compile="1" resource="0" file="Source/sha1.c"/>
+        <FILE id="hZO6TF" name="sha1.h" compile="0" resource="0" file="Source/sha1.h"/>
+        <FILE id="veSxzY" name="sounds.c" compile="1" resource="0" file="Source/sounds.c"/>
+        <FILE id="rWBTx5" name="sounds.h" compile="0" resource="0" file="Source/sounds.h"/>
+        <FILE id="AqOAGj" name="st_lib.c" compile="1" resource="0" file="Source/st_lib.c"/>
+        <FILE id="qiWp7o" name="st_lib.h" compile="0" resource="0" file="Source/st_lib.h"/>
+        <FILE id="GtuKIa" name="st_stuff.c" compile="1" resource="0" file="Source/st_stuff.c"/>
+        <FILE id="nyazJn" name="st_stuff.h" compile="0" resource="0" file="Source/st_stuff.h"/>
+        <FILE id="qAoplw" name="statdump.c" compile="1" resource="0" file="Source/statdump.c"/>
+        <FILE id="uJeLGe" name="statdump.h" compile="0" resource="0" file="Source/statdump.h"/>
+        <FILE id="YWsP3n" name="tables.c" compile="1" resource="0" file="Source/tables.c"/>
+        <FILE id="Ab4zIS" name="tables.h" compile="0" resource="0" file="Source/tables.h"/>
+      </GROUP>
+      <FILE id="Dmvh2x" name="PluginMain.h" compile="0" resource="0" file="Source/PluginMain.h"/>
+      <FILE id="Rzcz8C" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="qK8Bcd" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="R0SBx0" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="rrfMc1" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DoomVst"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DoomVst"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
