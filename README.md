@@ -1,5 +1,6 @@
 # DoomVst
 Doom, but it runs in a VST plugin inside your DAW program and uses MIDI input for controls.
+<img src="https://github.com/michael-truscott/DoomVst/blob/master/docs/DoomVst.png">
 
 Adapted from doomgeneric (https://github.com/ozkl/doomgeneric) and hastily hacked together into a JUCE plugin. Game audio not supported, sorry :(
 
