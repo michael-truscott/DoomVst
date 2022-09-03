@@ -6,7 +6,7 @@ Adapted from doomgeneric (https://github.com/ozkl/doomgeneric) and hastily hacke
 
 ## How to run
 - Copy DoomVst.vst3 into your DAW's VST folder.
-- Copy a Doom IWAD file (e.g. doom.wad or doom2.wad) into your DAW's working directory (usually something like C:\Program Files\[ProgramName]).
+- Copy a Doom IWAD file (e.g. doom.wad or doom2.wad) into your DAW's working directory (usually something like C:\Program Files\\[ProgramName]).
 - Add an instance of the Doom Vst plugin to a track in your DAW.
 - Kill some demons.
 
